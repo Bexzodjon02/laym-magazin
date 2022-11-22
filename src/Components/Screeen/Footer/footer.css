@@ -1,0 +1,91 @@
+li{
+    list-style: none;
+}
+a{
+    
+}
+.footer-main{
+    background: #333333;
+   /* height: 400px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 80px;
+}
+.footer-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:#fff;
+    /* background: red; */
+    width: 1300px;
+    font-family:monospace;
+    
+}
+.left .footerimgLogo{
+     margin-top: -35px;
+}
+.left p{
+     margin-top: 35px;
+     color: #d6d6d6;
+}
+.left a{
+    color: rgb(123, 188, 26) !important;
+}
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 90px;
+    margin-left: -40px;
+}
+.middle .conpanylist h4{
+   color: #636363; 
+   font-weight: 700;
+}
+.middle .conpanylist ul{
+   margin-left:-30px;
+} 
+.middle .conpanylist ul li{
+   padding-top: 20px;
+   cursor: pointer;
+} 
+.middle .buyList h4{
+    color: #636363; 
+    font-weight: 700;
+} 
+.middle .buyList ul{
+    margin-left:-30px;
+} 
+.middle .buyList ul li{
+    padding-top: 20px;
+    cursor: pointer;
+} 
+
+.right{
+    margin-left: -30px;
+}
+.right h1{
+   font-size: 60px;
+   font-weight: bold;
+}
+.right h1 img{
+   margin: 0 13px 0 0;
+}
+.footerbtn{
+    background: none;
+    width: 240px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+}
+.footersIcon{
+    display: flex; gap: 10px ;
+    font-size: 30px;
+    color: #636363;
+    margin-top: 10px;
+}

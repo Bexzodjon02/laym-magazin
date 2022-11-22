@@ -1,0 +1,29 @@
+
+
+
+.category-main{
+    margin: 2rem 0;
+    /* background: red; */
+}
+.category-main p{
+    font-size: 25px;
+    margin-left: 2.5%;
+}
+.category-main p small{
+    font-size: 13px;
+    margin-left: 20px;
+}
+.category-block{
+    display: flex;
+    align-items: center;justify-content: center;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+.category-block  select{
+     width:280px;
+     height: 40px;
+     border: 2.5px solid #d6d6d6;
+     border-radius: 8px;
+     outline-color: #b3e717;
+     outline-width: 10px;
+}
