@@ -8,7 +8,7 @@ const Navbar = () => {
 
       <nav class="navbar navbar-expand-lg ">
         <div className='nav-img'>
-          <img src={img} alt="" />
+          <img className='img-fluid' src={img} alt="" />
         </div>
         <div class="container-fluid">
           <a class="nav-link" href="#"><i class="bi bi-telephone-fill me-2"></i>7756</a>
@@ -53,9 +53,9 @@ const Navbar = () => {
         </div>
       </nav>
       <div className='navbarr container-fluid d-flex  row'>
-        <div className='col-12 col-md-6 d-flex'>
+        <div className='col-12 col-md-6 d-flex navbar_left'>
           <button className='navbar_btn'><i class="bi bi-search text-black"></i> Каталог</button>
-          <div class="input-group flex-wrap">
+          <div class="input-group flex-nowrap">
             <input type="text" class="inp" placeholder="Купить молоко" aria-label="Username" aria-describedby="addon-wrapping" />
             <span class="input-group-text inp_icon" id="addon-wrapping"><i class="bi bi-search text-black"></i></span>
           </div>
@@ -75,6 +75,10 @@ const Navbar = () => {
         <div className='person_card'>
           <h6 className='mt-2 mx-1'><i class="bi bi-cart-fill"></i> Корзина</h6>
         </div>
+        </div>
+        <div className='d-flex search'> 
+          <input className='form-control ' type="search"  placeholder='search'/>
+          <i class="bi bi-search text-black fs-3 mx-2"></i>
         </div>
       </div>
     </>
